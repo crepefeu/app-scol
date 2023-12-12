@@ -1,0 +1,16 @@
+<div class="content">
+    <h1>Étudiant venant de Paris</h1>
+
+    <div *ngFor="let etudiant of tableauEtudiantsParis" class="card">
+        <div>
+
+            <div>
+                <h2>{{etudiant._genre}}. {{etudiant._nom}} {{etudiant._prenom}}</h2>
+                <p>Age : {{etudiant._age}}</p>
+                <p>Email :{{etudiant._courriel}}</p>
+                <p>Adresse : {{etudiant._rue}}, {{etudiant._cp}}, {{etudiant._ville}}</p>
+                <p>Id : {{etudiant._idCand}}</p>
+            </div>
+        </div>
+    </div>
+</div>

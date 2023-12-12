@@ -1,0 +1,13 @@
+<div class="content">
+    <h1>Toutes les spécialités</h1>
+    <div *ngFor="let spec of tableauSpecs" class="card">
+        <div>
+
+            <div>
+                <h2>{{spec._libelle}}</h2>
+                <p>Id : {{spec._idSpec}}</p>
+            </div>
+        </div>
+    </div>
+
+</div>
